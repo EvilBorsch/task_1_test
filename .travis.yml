@@ -51,7 +51,7 @@ script:
 deploy:
     # выкладываем tagged-коммиты на GitHub Releases:
     provider:     releases
-    file:         task_1_test
+    file:         main
     skip_cleanup: true
     overwrite:    true
 
